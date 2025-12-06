@@ -1,5 +1,5 @@
 
-# **Feed-View**
+# **Carpe-Diem**
 I discovered today, that I have saved over 3000 reels on insta. Some of them are code hacks, some are memes/gym hacks,some of them actually have valuable iinformation with them
 And all thanks to insta's UI:-
 * I can't do sorting (date, recent, anything)
@@ -8,7 +8,7 @@ And all thanks to insta's UI:-
 * Can’t mass-scan content efficiently/ mass delete them
 
 
-## **So I created this quick side prioject to **
+##  **So I created this quick side prioject to **
 
 ###  **View 20–30 reels at once**
 
