@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reel Shuffle Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="brand">Reel Shuffle Viewer</div>
+        <div class="controls">
+            <label class="file-label">
+                <input id="jsonInput" type="file" accept="application/json">
+                <span class="file-label-text">Upload JSON</span>
+            </label>
+            <button id="shuffleButton" type="button" disabled>Random Order</button>
+            <button id="oldestButton" type="button" disabled>Oldest First</button>
+        </div>
+    </header>
+
+    <main class="layout">
+        <section class="info">
+            <p>Load a JSON file containing your reel links to start. Each entry can either be a string URL or an object like:</p>
+            <pre class="code-block">[
+  {
+    "url": "https://www.instagram.com/reel/ABC12345/",
+    "description": "Optional caption shown under the embed"
+  }
+]</pre>
+            <p class="tip">Reels are displayed in a random order every time you load or shuffle the list.</p>
+            <p class="note">Embeds come directly from Instagram. Viewers may need to be logged in to Instagram in their browser to watch the reels.</p>
+            <p id="status" class="status">Waiting for a JSON file…</p>
+        </section>
+
+        <section id="reelsContainer" class="reels"></section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
