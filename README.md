@@ -8,7 +8,7 @@ And all thanks to insta's UI:-
 * Can’t mass-scan content efficiently/ mass delete them
 
 
-##  **So I created this quick side prioject to **
+##  **So I created this quick side prioject to**
 
 ###  **View 20–30 reels at once**
 
